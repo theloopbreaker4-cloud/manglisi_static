@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /assets/i18n.js$
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+Sitemap: https://manglisi.vip/sitemap.xml
+Host: https://manglisi.vip

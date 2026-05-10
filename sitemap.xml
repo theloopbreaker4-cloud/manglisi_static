@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+
+  <url>
+    <loc>https://manglisi.vip/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://manglisi.vip/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manglisi.vip/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://manglisi.vip/?lang=ka"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://manglisi.vip/?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="be" href="https://manglisi.vip/?lang=be"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://manglisi.vip/?lang=az"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://manglisi.vip/?lang=hy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manglisi.vip/"/>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-06.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-07.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-08.jpg</image:loc></image:image>
+    <image:image><image:loc>https://manglisi.vip/img/cottage-09.jpg</image:loc></image:image>
+  </url>
+
+  <!-- Russian blog (canonical/source) -->
+  <url><loc>https://manglisi.vip/blog/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://manglisi.vip/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manglisi.vip/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://manglisi.vip/blog/ka/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://manglisi.vip/blog/uk/"/>
+    <xhtml:link rel="alternate" hreflang="be" href="https://manglisi.vip/blog/be/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://manglisi.vip/blog/az/"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://manglisi.vip/blog/hy/"/>
+  </url>
+  <url><loc>https://manglisi.vip/blog/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://manglisi.vip/blog/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://manglisi.vip/blog/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://manglisi.vip/blog/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://manglisi.vip/blog/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://manglisi.vip/blog/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://manglisi.vip/blog/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://manglisi.vip/blog/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://manglisi.vip/blog/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- English blog -->
+  <url><loc>https://manglisi.vip/blog/en/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/en/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Georgian blog -->
+  <url><loc>https://manglisi.vip/blog/ka/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/ka/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Ukrainian blog -->
+  <url><loc>https://manglisi.vip/blog/uk/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/uk/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Belarusian blog -->
+  <url><loc>https://manglisi.vip/blog/be/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/be/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Azerbaijani blog -->
+  <url><loc>https://manglisi.vip/blog/az/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/az/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Armenian blog -->
+  <url><loc>https://manglisi.vip/blog/hy/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/manglisi-sioni.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/may-visit.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/healing-air.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/camping.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/pine-forest.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/algeti-deer.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/winter.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/remote-work.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://manglisi.vip/blog/hy/family-with-kids.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+</urlset>

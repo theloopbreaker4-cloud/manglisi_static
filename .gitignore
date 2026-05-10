@@ -1,0 +1,15 @@
+# Dev / build helpers (private)
+_work/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local server logs
+*.log
