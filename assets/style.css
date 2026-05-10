@@ -809,3 +809,143 @@ body::before {
   }
   html { scroll-behavior: auto; }
 }
+
+/* ─────────────────────────────────────────────────────────────────
+   Mobile improvements (Iteration 1)
+   ───────────────────────────────────────────────────────────────── */
+
+/* Touch targets — Apple HIG: 44x44, Material Design: 48x48 */
+@media (max-width: 768px) {
+  /* All clickable elements need adequate tap area */
+  .btn {
+    min-height: 48px;
+    padding: 14px 24px;
+    font-size: 1rem;
+  }
+  .lang-trigger {
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+  .menu-toggle {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .lightbox button {
+    min-width: 48px;
+    min-height: 48px;
+  }
+  .main-nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  /* Better tap feedback */
+  .btn, .lang-trigger, .menu-toggle, a {
+    -webkit-tap-highlight-color: rgba(201, 122, 58, 0.2);
+  }
+}
+
+/* Small mobile (480px and below) — most modern phones in portrait */
+@media (max-width: 480px) {
+  body { font-size: 15px; }
+  .container { padding: 0 18px; }
+  .section { padding: 48px 0; }
+
+  h1 { font-size: clamp(1.7rem, 7vw, 2.2rem); }
+  h2 { font-size: clamp(1.4rem, 5.5vw, 1.8rem); }
+  h3 { font-size: 1.1rem; }
+
+  /* Hero adjustments */
+  .hero { padding: 24px 0 32px; gap: 20px; }
+  .hero-photo { border-width: 4px; }
+
+  /* Buttons stack vertically with full width on small screens */
+  .hero-actions, .contact-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-actions .btn, .contact-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Header tighter */
+  .header-inner {
+    padding: 8px 14px;
+    gap: 8px;
+  }
+  .brand img { height: 30px; }
+
+  /* Article padding reduce */
+  .article { padding: 18px; }
+
+  /* Gallery single column with smaller gap */
+  .gallery { gap: 12px; }
+
+  /* Map iframe responsive */
+  .map-wrap iframe { height: 300px; }
+
+  /* Lightbox close button bigger and more visible */
+  .lightbox button {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+  }
+
+  /* Lang menu wider on small screens */
+  .lang-menu {
+    right: 0;
+    left: auto;
+    min-width: 180px;
+    max-width: calc(100vw - 32px);
+  }
+}
+
+/* Extra small (320px - oldest iPhone SE 1st gen, small Android) */
+@media (max-width: 360px) {
+  body { font-size: 14px; }
+  .container { padding: 0 14px; }
+  .section { padding: 40px 0; }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.05rem; }
+
+  /* Tighter hero */
+  .hero { padding: 20px 0 28px; }
+
+  /* Buttons comfortable but not too big */
+  .btn {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    gap: 8px;
+  }
+  .btn .ico { width: 18px; height: 18px; }
+
+  /* Header most compact */
+  .header-inner {
+    padding: 6px 10px;
+    gap: 6px;
+  }
+  .brand img { height: 28px; }
+  .lang-trigger {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+  .lang-trigger .flag { width: 18px; height: 13px; }
+
+  /* Article ultra-compact */
+  .article { padding: 14px; }
+
+  /* Stars/rating one line */
+  .rating-line { font-size: 0.85rem; }
+}
+
+/* Landscape phones — keep things readable */
+@media (max-width: 932px) and (orientation: landscape) and (max-height: 500px) {
+  .hero { padding: 20px 0; }
+  .section { padding: 40px 0; }
+}
