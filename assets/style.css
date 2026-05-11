@@ -1157,6 +1157,125 @@ body,
   color: rgba(255, 255, 255, 0.75);
 }
 
+/* ─────────────────────────────────────────────────────────────────
+   Dark theme — additional text contrast fixes
+   ───────────────────────────────────────────────────────────────── */
+
+/* Selection highlight in dark mode */
+[data-theme="dark"] ::selection {
+  background: var(--c-pine);
+  color: #fff;
+}
+::selection {
+  background: var(--c-spring);
+  color: #fff;
+}
+
+/* Section headings stay readable */
+[data-theme="dark"] .section h1,
+[data-theme="dark"] .section h2,
+[data-theme="dark"] .section h3 {
+  color: var(--c-ink);
+}
+
+/* Article links and inline text */
+[data-theme="dark"] .article h2,
+[data-theme="dark"] .article h3 {
+  color: var(--c-pine-l);
+}
+[data-theme="dark"] .article p,
+[data-theme="dark"] .article li {
+  color: var(--c-ink);
+}
+[data-theme="dark"] .article a {
+  color: var(--c-warm-l);
+}
+
+/* Hero subtitle and meta text */
+[data-theme="dark"] .hero p,
+[data-theme="dark"] .hero .subtitle {
+  color: var(--c-ink-soft);
+}
+
+/* Cards text on cream backgrounds */
+[data-theme="dark"] .feature h3,
+[data-theme="dark"] .perfect-card h3,
+[data-theme="dark"] .season-card h3,
+[data-theme="dark"] .howto-card h3 {
+  color: var(--c-ink);
+}
+[data-theme="dark"] .feature p,
+[data-theme="dark"] .perfect-card p,
+[data-theme="dark"] .season-card p,
+[data-theme="dark"] .howto-card p {
+  color: var(--c-ink-soft);
+}
+
+/* Village/about text */
+[data-theme="dark"] #village p,
+[data-theme="dark"] .village p,
+[data-theme="dark"] .cottage p,
+[data-theme="dark"] section p {
+  color: var(--c-ink);
+}
+
+/* Cite/source lines */
+[data-theme="dark"] cite,
+[data-theme="dark"] .cite,
+[data-theme="dark"] .source,
+[data-theme="dark"] .sources {
+  color: var(--c-muted);
+}
+
+/* FAQ items */
+[data-theme="dark"] .faq-item,
+[data-theme="dark"] details {
+  background: var(--c-card);
+  border-color: var(--c-line);
+  color: var(--c-ink);
+}
+[data-theme="dark"] summary,
+[data-theme="dark"] .faq-q {
+  color: var(--c-ink);
+}
+[data-theme="dark"] .faq-a {
+  color: var(--c-ink-soft);
+}
+
+/* Section "Perfect for" section uses dark forest theme — keep light text */
+.section-forest h1,
+.section-forest h2,
+.section-forest h3 {
+  color: #fff;
+}
+
+/* Bottom blog preview hover */
+[data-theme="dark"] .blog-card:hover {
+  background: var(--c-card-2);
+  border-color: var(--c-pine);
+}
+[data-theme="dark"] .blog-card:hover h3 {
+  color: var(--c-pine-l);
+}
+
+/* Discount/badge bubbles */
+[data-theme="dark"] .discount {
+  background: rgba(255, 167, 102, 0.15);
+  color: var(--c-warm-l);
+  border-color: rgba(255, 167, 102, 0.3);
+}
+
+/* Improve rating-line in dark */
+[data-theme="dark"] .rating-line {
+  color: var(--c-ink-soft);
+}
+[data-theme="dark"] .rating-line strong {
+  color: var(--c-ink);
+}
+[data-theme="dark"] .rating-line a {
+  color: var(--c-warm-l);
+}
+
 /* Improved button glow in dark mode */
 [data-theme="dark"] .btn-primary:hover {
   box-shadow: 0 10px 30px var(--c-warm-glow), 0 0 0 1px rgba(255, 167, 102, 0.4);
