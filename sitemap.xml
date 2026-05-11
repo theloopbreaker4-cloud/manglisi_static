@@ -5,7 +5,7 @@
 
   <url>
     <loc>https://manglisi.vip/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://manglisi.vip/?lang=ru"/>
@@ -15,6 +15,9 @@
     <xhtml:link rel="alternate" hreflang="be" href="https://manglisi.vip/?lang=be"/>
     <xhtml:link rel="alternate" hreflang="az" href="https://manglisi.vip/?lang=az"/>
     <xhtml:link rel="alternate" hreflang="hy" href="https://manglisi.vip/?lang=hy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://manglisi.vip/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manglisi.vip/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://manglisi.vip/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manglisi.vip/"/>
     <image:image><image:loc>https://manglisi.vip/img/cottage-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://manglisi.vip/img/cottage-02.jpg</image:loc></image:image>
