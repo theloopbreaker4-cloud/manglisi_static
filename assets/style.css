@@ -458,6 +458,32 @@ body::before {
 .btn-viber { background: #7360f2; color: #fff; }
 .btn-viber:hover { background: #5c4bd1; color: #fff; }
 
+/* Unified contact buttons — calm forest theme, same icons */
+.btn-contact {
+  background: var(--c-pine);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 14px rgba(42, 66, 38, 0.25);
+}
+.btn-contact:hover {
+  background: var(--c-pine-d);
+  color: #fff;
+  border-color: var(--c-warm-l);
+  transform: translateY(-1px);
+}
+.btn-contact .ico { opacity: 0.95; }
+
+[data-theme="dark"] .btn-contact {
+  background: var(--c-card);
+  color: var(--c-ink);
+  border-color: var(--c-line);
+}
+[data-theme="dark"] .btn-contact:hover {
+  background: var(--c-card-2);
+  border-color: var(--c-pine-l);
+  color: var(--c-pine-l);
+}
+
 .hero-photo {
   border-radius: var(--r-lg);
   overflow: hidden;
