@@ -888,5 +888,386 @@ window.I18N = {
       made: "Ստեղծված է լեռների հանդեպ սիրով"
     },
     units: { km: "կմ", m: "մ" }
+  },
+
+  de: {
+    nav: { home: "Startseite", cottage: "Cottage", gallery: "Galerie", village: "Manglisi", howto: "Anfahrt", faq: "FAQ", blog: "Blog", contact: "Kontakt" },
+    hero: {
+      rating: "Google Maps",
+      tagline: "Ein warmes Cottage in den Bergen",
+      title: "Manglisi — Erholung eine Stunde von Tiflis",
+      subtitle: "Kiefernduftende Luft des Trialeti-Gebirges, Stille, Komfort und Fürsorge für jeden Gast. Nur 63 km von der Hauptstadt entfernt.",
+      cta_book: "Jetzt buchen",
+      cta_call: "Anrufen",
+      badge_distance: "63 km von Tiflis",
+      badge_alt: "1200 m über dem Meer",
+      badge_pine: "Kiefernwald in der Nähe"
+    },
+    sect: {
+      cottage_title: "Über das Cottage",
+      cottage_lead: "Ein gemütliches Zuhause mit allem, was für Familienaufenthalte das ganze Jahr über nötig ist.",
+      gallery_title: "Galerie",
+      gallery_lead: "Klicken Sie auf ein Foto, um es zu vergrößern.",
+      yard_title: "Hof & Freizeit",
+      village_title: "Über Manglisi",
+      perfect_title: "Perfekt für",
+      howto_title: "Anfahrt",
+      seasons_title: "Jahreszeiten in Manglisi",
+      faq_title: "Häufige Fragen",
+      contact_title: "Buchung & Kontakt",
+      blog_title: "Wissenswertes"
+    },
+    cottage: {
+      addr: "Adresse: Mangleli-Straße 8, Manglisi, Gemeinde Tetritskaro",
+      bedroom: "Schlafzimmer — 3 Betten und ein Kleiderschrank",
+      kitchen: "Küchenstudio mit vollständigem Kochgeschirr, Gasherd, Kühlschrank, Waschmaschine",
+      living: "Wohnbereich — Sofa, Esstisch, TV",
+      bath: "Badezimmer und WC",
+      heat: "Zentralheizung",
+      utils: "Strom, Wasser, Gas, Internet und TV — durchgehend",
+      yard1: "Tisch und Stühle im Freien",
+      yard2: "Grillbereich",
+      yard3: "Kinderschaukel",
+      yard4: "Sandkasten mit Spielzeug",
+      pine: "100 m bis zum zentralen Kiefernhain"
+    },
+    village: {
+      p1: "Manglisi ist ein altes Kurdorf an den südlichen Hängen des Trialeti-Gebirges auf etwa 1200 m über dem Meer. Es liegt nur 63 km von Tiflis entfernt auf einer asphaltierten Straße.",
+      p2: "Seit der Sowjetzeit ist Manglisi als Klimakurort bekannt: Die Luft des Kiefernwaldes tut den Atemwegen gut, während moderate Sommertemperaturen und Bergbrisen auch in den heißesten Monaten Kühle bringen.",
+      p3: "Hier befindet sich auch einer der ältesten christlichen Tempel Georgiens — die Sioni-Kathedrale von Manglisi, gegründet im 4. Jahrhundert. In der Nähe liegt der Algeti-Nationalpark mit Kiefern, Buchen und kaukasischer Tanne.",
+      cite: "Quellen: Georgia.travel, Wikipedia"
+    },
+    perfect: {
+      family: "Familien mit Kindern",
+      family_d: "Schaukel, Sandkasten, sicherer Hof und Stille",
+      couple: "Romantische Auszeiten",
+      couple_d: "Naturkamin — Grillen bei Sonnenuntergang, Sterne über den Kiefern",
+      remote: "Remote-Arbeit",
+      remote_d: "Stabiles Internet, TV, Ruhe und Bergluft",
+      escape: "Kühle Sommerflucht",
+      escape_d: "Wenn Tiflis +35 erreicht, bleibt Manglisi bei +18…+22"
+    },
+    howto: {
+      car: "Mit dem Auto",
+      car_d: "Etwa 1 Stunde 15 Minuten mit dem Auto. Zwei landschaftlich reizvolle Routen: über Kojori (Hauptstraße) oder über Orbeti und Didgori — durch Geschichte.",
+      route: "<strong>Route 1:</strong> Tiflis → Kojori → Tsalka → Manglisi<br><strong>Route 2:</strong> Tiflis → Orbeti → Didgori → Toneti → Manglisi",
+      taxi: "Taxi und Transfer",
+      taxi_d: "Wir können einen Transfer vom Flughafen oder aus der Stadt organisieren.",
+      open_map: "Karte öffnen"
+    },
+    seasons: {
+      spring: "Frühling",
+      spring_d: "Mai ist der beste Monat: Blüten, Forellenfischen am Algeti, sanfte Sonne.",
+      summer: "Sommer",
+      summer_d: "Kühl, +18…+22, eine Flucht vor der Hitze von Tiflis. Wandern und Picknicks.",
+      autumn: "Herbst",
+      autumn_d: "Goldener Wald, Pilze, Stille. Perfekt für Einsamkeit.",
+      winter: "Winter",
+      winter_d: "Schnee von Dezember bis März, Neujahrsstimmung, Zentralheizung im Cottage."
+    },
+    faq: {
+      q1: "Wie hoch ist die Miete?",
+      a1: "Der Preis hängt von der Saison und der Aufenthaltsdauer ab. Rufen Sie an oder schreiben Sie uns auf WhatsApp — Rabatte sind möglich.",
+      q2: "Sind Haustiere erlaubt?",
+      a2: "Auf Anfrage. Bitte schreiben Sie uns im Voraus.",
+      q3: "Was ist der Mindestaufenthalt?",
+      a3: "Mindestens 2 Nächte. Besondere Bedingungen für längere Aufenthalte.",
+      q4: "Was ist inbegriffen?",
+      a4: "Voll ausgestattetes Cottage: Kochgeschirr, Bettwäsche, Heizung, Internet, TV.",
+      q5: "Wie kann ich bezahlen?",
+      a5: "Bar oder Banküberweisung. Anzahlungsbedingungen werden separat besprochen.",
+      q6: "Was soll ich mitbringen?",
+      a6: "Nur Lebensmittel und persönliche Sachen — alles andere ist da."
+    },
+    contact: {
+      maps_link: "Bewertungen auf Google Maps",
+      host: "Gastgeberin: Tati Gelashvili",
+      lead: "Rufen Sie an, schreiben Sie uns auf WhatsApp oder Viber — wir antworten schnell.",
+      phone: "Telefon",
+      whatsapp: "WhatsApp",
+      viber: "Viber",
+      discount: "Rabatte jetzt verfügbar!"
+    },
+    blog: {
+      preview_lead: "Manglisi ist mehr als Berge und Kiefern — es sind alte Kirchen, Forellenflüsse und Wälder, in denen Hirsche zurückkehren.",
+      back: "← Zurück zur Startseite",
+      read: "Lesen",
+      all: "Alle Artikel",
+      a1_title: "Die alte Sioni-Kathedrale von Manglisi",
+      a1_desc: "Eine der ältesten Kirchen Georgiens — 4. Jahrhundert, mit einem Stück des wahren Kreuzes und einer wundertätigen Ikone der Jungfrau.",
+      a2_title: "Warum im Mai kommen",
+      a2_desc: "Blüten, Forellenfischen am Algeti, sanfte Bergluft — der beste Monat für einen ersten Besuch.",
+      a3_title: "Die heilende Luft von Manglisi",
+      a3_desc: "Kiefernwald, Kiefernpollen, reiner Bergsauerstoff — warum Ärzte Manglisi seit Jahrhunderten empfehlen.",
+      a4_title: "Camping in der Nähe",
+      a4_desc: "Wo man ein Zelt aufschlägt, was man mitbringt und warum eine Nacht unter den Kiefern etwas Besonderes ist.",
+      a5_title: "Der Kiefernwald — Manglisis größter Schatz",
+      a5_desc: "Mehrstufiges Relikt-Kiefernmassiv umgibt das Dorf.",
+      a6_title: "Algeti-Reservat: Die Hirsche kehren zurück",
+      a6_desc: "Der kaukasische Rothirsch ist in die Algeti-Wälder zurückgekehrt — die größte Zuchtanlage im Kaukasus.",
+      a7_title: "Manglisi im Winter",
+      a7_desc: "Schnee, Stille, Neujahrsstimmung und ein warmes Cottage mit Zentralheizung.",
+      a8_title: "Ein Cottage für Remote-Arbeit",
+      a8_desc: "Ruhig, stabiles Internet, saubere Luft — warum Spezialisten Manglisi wählen."
+    },
+    footer: {
+      rights: "© 2026 Manglisi.vip — Alle Rechte vorbehalten",
+      made: "Mit Liebe für die Berge gemacht"
+    },
+    units: { km: "km", m: "m" }
+  },
+
+  fr: {
+    nav: { home: "Accueil", cottage: "Chalet", gallery: "Galerie", village: "Manglisi", howto: "Comment venir", faq: "FAQ", blog: "Blog", contact: "Contact" },
+    hero: {
+      rating: "Google Maps",
+      tagline: "Un chalet chaleureux dans les montagnes",
+      title: "Manglisi — une escapade à une heure de Tbilissi",
+      subtitle: "Air parfumé aux pins de la chaîne du Trialeti, silence, confort et attention pour chaque invité. À seulement 63 km de la capitale.",
+      cta_book: "Réserver",
+      cta_call: "Appeler",
+      badge_distance: "63 km de Tbilissi",
+      badge_alt: "1200 m d'altitude",
+      badge_pine: "Forêt de pins à proximité"
+    },
+    sect: {
+      cottage_title: "À propos du chalet",
+      cottage_lead: "Une maison confortable avec tout le nécessaire pour des séjours en famille toute l'année.",
+      gallery_title: "Galerie",
+      gallery_lead: "Cliquez sur une photo pour l'agrandir.",
+      yard_title: "Cour et loisirs",
+      village_title: "À propos de Manglisi",
+      perfect_title: "Parfait pour",
+      howto_title: "Comment venir",
+      seasons_title: "Saisons à Manglisi",
+      faq_title: "FAQ",
+      contact_title: "Réservation et contact",
+      blog_title: "Bon à savoir"
+    },
+    cottage: {
+      addr: "Adresse : 8 rue Mangleli, Manglisi, municipalité de Tetritskaro",
+      bedroom: "Chambre — 3 lits et une armoire",
+      kitchen: "Cuisine-studio avec ustensiles complets, cuisinière à gaz, réfrigérateur, machine à laver",
+      living: "Salon — canapé, table à manger, télévision",
+      bath: "Salle de bain et toilettes",
+      heat: "Chauffage central",
+      utils: "Électricité, eau, gaz, internet et TV — en continu",
+      yard1: "Table et chaises extérieures",
+      yard2: "Coin barbecue",
+      yard3: "Balançoire pour enfants",
+      yard4: "Bac à sable avec jouets",
+      pine: "100 m jusqu'à la pinède centrale"
+    },
+    village: {
+      p1: "Manglisi est un ancien village de villégiature sur les versants sud de la chaîne du Trialeti, à environ 1200 m d'altitude. Il se trouve à seulement 63 km de Tbilissi par route goudronnée.",
+      p2: "Depuis l'époque soviétique, Manglisi est connu comme une station climatique : l'air de la pinède bénéficie au système respiratoire, tandis que les températures estivales modérées et les brises de montagne offrent de la fraîcheur même pendant les mois les plus chauds.",
+      p3: "C'est aussi le foyer de l'un des plus anciens temples chrétiens de Géorgie — la cathédrale Sioni de Manglisi, fondée au IVe siècle. À proximité se trouve le parc national d'Algeti avec ses pins, hêtres et sapins du Caucase.",
+      cite: "Sources : Georgia.travel, Wikipedia"
+    },
+    perfect: {
+      family: "Familles avec enfants",
+      family_d: "Balançoire, bac à sable, cour sécurisée et silence",
+      couple: "Escapades romantiques",
+      couple_d: "Le feu de la nature — barbecue au coucher du soleil, étoiles au-dessus des pins",
+      remote: "Télétravail",
+      remote_d: "Internet stable, TV, calme et air de montagne",
+      escape: "Évasion estivale",
+      escape_d: "Quand Tbilissi atteint +35, Manglisi reste autour de +18…+22"
+    },
+    howto: {
+      car: "En voiture",
+      car_d: "Environ 1 heure 15 minutes en voiture. Deux itinéraires pittoresques : via Kojori (route principale) ou via Orbeti et Didgori — à travers l'histoire.",
+      route: "<strong>Itinéraire 1 :</strong> Tbilissi → Kojori → Tsalka → Manglisi<br><strong>Itinéraire 2 :</strong> Tbilissi → Orbeti → Didgori → Toneti → Manglisi",
+      taxi: "Taxi et transfert",
+      taxi_d: "Nous pouvons organiser un transfert depuis l'aéroport ou la ville.",
+      open_map: "Ouvrir la carte"
+    },
+    seasons: {
+      spring: "Printemps",
+      spring_d: "Mai est le meilleur mois : floraisons, pêche à la truite sur l'Algeti, soleil doux.",
+      summer: "Été",
+      summer_d: "Frais, +18…+22, une évasion de la chaleur de Tbilissi. Randonnée et pique-niques.",
+      autumn: "Automne",
+      autumn_d: "Forêt dorée, champignons, silence. Parfait pour la solitude.",
+      winter: "Hiver",
+      winter_d: "Neige de décembre à mars, ambiance Nouvel An, chauffage central dans le chalet."
+    },
+    faq: {
+      q1: "Quel est le prix de la location ?",
+      a1: "Le prix dépend de la saison et de la durée du séjour. Appelez ou écrivez-nous sur WhatsApp — des remises s'appliquent.",
+      q2: "Les animaux sont-ils autorisés ?",
+      a2: "Sur demande. Veuillez nous écrire à l'avance.",
+      q3: "Quel est le séjour minimum ?",
+      a3: "2 nuits minimum. Conditions spéciales pour les longs séjours.",
+      q4: "Qu'est-ce qui est inclus ?",
+      a4: "Chalet entièrement équipé : ustensiles, linge, chauffage, internet, TV.",
+      q5: "Comment puis-je payer ?",
+      a5: "Espèces ou virement bancaire. Conditions de dépôt discutées séparément.",
+      q6: "Que dois-je apporter ?",
+      a6: "Seulement de la nourriture et des affaires personnelles — tout le reste est là."
+    },
+    contact: {
+      maps_link: "avis sur Google Maps",
+      host: "Hôtesse : Tati Gelashvili",
+      lead: "Appelez, écrivez-nous sur WhatsApp ou Viber — nous répondons rapidement.",
+      phone: "Téléphone",
+      whatsapp: "WhatsApp",
+      viber: "Viber",
+      discount: "Remises disponibles maintenant !"
+    },
+    blog: {
+      preview_lead: "Manglisi, c'est plus que des montagnes et des pins — ce sont d'anciennes églises, des rivières à truites et des forêts où les cerfs reviennent.",
+      back: "← Retour à l'accueil",
+      read: "Lire",
+      all: "Tous les articles",
+      a1_title: "L'ancienne cathédrale Sioni de Manglisi",
+      a1_desc: "L'une des plus anciennes églises de Géorgie — IVe siècle, abritant un morceau de la Vraie Croix et une icône miraculeuse de la Vierge.",
+      a2_title: "Pourquoi venir en mai",
+      a2_desc: "Floraisons, pêche à la truite sur l'Algeti, air de montagne doux — le meilleur mois pour une première visite.",
+      a3_title: "L'air guérisseur de Manglisi",
+      a3_desc: "Pinède, pollen de pin, oxygène pur de montagne — pourquoi les médecins prescrivent Manglisi depuis des siècles.",
+      a4_title: "Camping à proximité",
+      a4_desc: "Où planter sa tente, quoi apporter, et pourquoi une nuit sous les pins est quelque chose de spécial.",
+      a5_title: "La pinède — le trésor principal de Manglisi",
+      a5_desc: "Massif de pins relique à plusieurs étages entourant le village.",
+      a6_title: "Réserve d'Algeti : le retour des cerfs",
+      a6_desc: "Le cerf élaphe du Caucase est de retour dans les forêts d'Algeti — la plus grande installation d'élevage du Caucase.",
+      a7_title: "Manglisi en hiver",
+      a7_desc: "Neige, silence, ambiance Nouvel An et un chalet chaleureux avec chauffage central.",
+      a8_title: "Un chalet pour le télétravail",
+      a8_desc: "Calme, internet stable, air pur — pourquoi les spécialistes choisissent Manglisi."
+    },
+    footer: {
+      rights: "© 2026 Manglisi.vip — Tous droits réservés",
+      made: "Fait avec amour pour les montagnes"
+    },
+    units: { km: "km", m: "m" }
+  },
+
+  es: {
+    nav: { home: "Inicio", cottage: "Cabaña", gallery: "Galería", village: "Manglisi", howto: "Cómo llegar", faq: "FAQ", blog: "Blog", contact: "Contacto" },
+    hero: {
+      rating: "Google Maps",
+      tagline: "Una cabaña cálida en las montañas",
+      title: "Manglisi — una escapada a una hora de Tbilisi",
+      subtitle: "Aire perfumado de pinos de la cordillera Trialeti, silencio, comodidad y atención para cada huésped. A solo 63 km de la capital.",
+      cta_book: "Reservar",
+      cta_call: "Llamar",
+      badge_distance: "63 km de Tbilisi",
+      badge_alt: "1200 m de altitud",
+      badge_pine: "Pinar cercano"
+    },
+    sect: {
+      cottage_title: "Sobre la cabaña",
+      cottage_lead: "Un hogar acogedor con todo lo necesario para estancias familiares durante todo el año.",
+      gallery_title: "Galería",
+      gallery_lead: "Haz clic en cualquier foto para ampliarla.",
+      yard_title: "Patio y ocio",
+      village_title: "Sobre Manglisi",
+      perfect_title: "Perfecto para",
+      howto_title: "Cómo llegar",
+      seasons_title: "Estaciones en Manglisi",
+      faq_title: "FAQ",
+      contact_title: "Reserva y contacto",
+      blog_title: "Bueno saber"
+    },
+    cottage: {
+      addr: "Dirección: Calle Mangleli 8, Manglisi, municipio de Tetritskaro",
+      bedroom: "Dormitorio — 3 camas y un armario",
+      kitchen: "Cocina-estudio con utensilios completos, cocina de gas, nevera, lavadora",
+      living: "Sala de estar — sofá, mesa de comedor, TV",
+      bath: "Baño y aseo",
+      heat: "Calefacción central",
+      utils: "Electricidad, agua, gas, internet y TV — siempre activos",
+      yard1: "Mesa y sillas exteriores",
+      yard2: "Zona de barbacoa",
+      yard3: "Columpio infantil",
+      yard4: "Cajón de arena con juguetes",
+      pine: "100 m hasta el pinar central"
+    },
+    village: {
+      p1: "Manglisi es un antiguo pueblo de descanso en las laderas sur de la cordillera Trialeti, a unos 1200 m sobre el nivel del mar. Está a solo 63 km de Tbilisi por carretera asfaltada.",
+      p2: "Desde la época soviética, Manglisi es conocida como un balneario climático: el aire del pinar beneficia al sistema respiratorio, mientras que las temperaturas moderadas de verano y las brisas de montaña mantienen el frescor incluso en los meses más calurosos.",
+      p3: "También alberga uno de los templos cristianos más antiguos de Georgia — la catedral Sioni de Manglisi, fundada en el siglo IV. Cerca se encuentra el Parque Nacional de Algeti con pinos, hayas y abetos del Cáucaso.",
+      cite: "Fuentes: Georgia.travel, Wikipedia"
+    },
+    perfect: {
+      family: "Familias con niños",
+      family_d: "Columpio, cajón de arena, patio seguro y silencio",
+      couple: "Escapadas románticas",
+      couple_d: "Chimenea de la naturaleza — barbacoa al atardecer, estrellas sobre los pinos",
+      remote: "Teletrabajo",
+      remote_d: "Internet estable, TV, tranquilidad y aire de montaña",
+      escape: "Refugio veraniego fresco",
+      escape_d: "Cuando Tbilisi alcanza +35, Manglisi se mantiene en +18…+22"
+    },
+    howto: {
+      car: "En coche",
+      car_d: "Aproximadamente 1 hora 15 minutos en coche. Dos rutas escénicas: vía Kojori (carretera principal) o vía Orbeti y Didgori — a través de la historia.",
+      route: "<strong>Ruta 1:</strong> Tbilisi → Kojori → Tsalka → Manglisi<br><strong>Ruta 2:</strong> Tbilisi → Orbeti → Didgori → Toneti → Manglisi",
+      taxi: "Taxi y traslado",
+      taxi_d: "Podemos organizar un traslado desde el aeropuerto o la ciudad.",
+      open_map: "Abrir mapa"
+    },
+    seasons: {
+      spring: "Primavera",
+      spring_d: "Mayo es el mejor mes: floraciones, pesca de truchas en el Algeti, sol suave.",
+      summer: "Verano",
+      summer_d: "Fresco, +18…+22, una escapada del calor de Tbilisi. Senderismo y picnics.",
+      autumn: "Otoño",
+      autumn_d: "Bosque dorado, setas, silencio. Perfecto para la soledad.",
+      winter: "Invierno",
+      winter_d: "Nieve de diciembre a marzo, ambiente de Año Nuevo, calefacción central en la cabaña."
+    },
+    faq: {
+      q1: "¿Cuál es el precio del alquiler?",
+      a1: "El precio depende de la temporada y la duración de la estancia. Llame o escríbanos por WhatsApp — se aplican descuentos.",
+      q2: "¿Se permiten mascotas?",
+      a2: "Bajo petición. Por favor, escríbanos con antelación.",
+      q3: "¿Cuál es la estancia mínima?",
+      a3: "Mínimo 2 noches. Condiciones especiales para estancias largas.",
+      q4: "¿Qué está incluido?",
+      a4: "Cabaña totalmente equipada: utensilios, ropa de cama, calefacción, internet, TV.",
+      q5: "¿Cómo puedo pagar?",
+      a5: "Efectivo o transferencia bancaria. Condiciones de depósito discutidas por separado.",
+      q6: "¿Qué debo traer?",
+      a6: "Solo comida y efectos personales — todo lo demás está aquí."
+    },
+    contact: {
+      maps_link: "reseñas en Google Maps",
+      host: "Anfitriona: Tati Gelashvili",
+      lead: "Llame, escríbanos por WhatsApp o Viber — respondemos rápido.",
+      phone: "Teléfono",
+      whatsapp: "WhatsApp",
+      viber: "Viber",
+      discount: "¡Descuentos disponibles ahora!"
+    },
+    blog: {
+      preview_lead: "Manglisi es más que montañas y pinos — son antiguas iglesias, ríos con truchas y bosques donde regresan los ciervos.",
+      back: "← Volver al inicio",
+      read: "Leer",
+      all: "Todos los artículos",
+      a1_title: "La antigua catedral Sioni de Manglisi",
+      a1_desc: "Una de las iglesias más antiguas de Georgia — siglo IV, que alberga un trozo de la Vera Cruz y un icono milagroso de la Virgen.",
+      a2_title: "Por qué venir en mayo",
+      a2_desc: "Floraciones, pesca de truchas en el Algeti, aire suave de montaña — el mejor mes para una primera visita.",
+      a3_title: "El aire curativo de Manglisi",
+      a3_desc: "Pinar, polen de pino, oxígeno puro de montaña — por qué los médicos han prescrito Manglisi durante siglos.",
+      a4_title: "Camping cercano",
+      a4_desc: "Dónde montar una tienda, qué llevar y por qué una noche bajo los pinos es algo especial.",
+      a5_title: "El pinar — el principal tesoro de Manglisi",
+      a5_desc: "Macizo de pinos reliquia de varios niveles que rodea el pueblo.",
+      a6_title: "Reserva de Algeti: el regreso de los ciervos",
+      a6_desc: "El ciervo rojo del Cáucaso ha vuelto a los bosques de Algeti — la mayor instalación de cría del Cáucaso.",
+      a7_title: "Manglisi en invierno",
+      a7_desc: "Nieve, silencio, ambiente de Año Nuevo y una cabaña cálida con calefacción central.",
+      a8_title: "Una cabaña para teletrabajo",
+      a8_desc: "Tranquilo, internet estable, aire puro — por qué los especialistas eligen Manglisi."
+    },
+    footer: {
+      rights: "© 2026 Manglisi.vip — Todos los derechos reservados",
+      made: "Hecho con amor por las montañas"
+    },
+    units: { km: "km", m: "m" }
   }
 };

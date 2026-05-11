@@ -53,5 +53,23 @@
   <rect y="26.67" width="60" height="13.33" fill="#f2a800"/>
 </symbol>
 
+<symbol id="f-de" viewBox="0 0 60 40">
+  <rect width="60" height="13.33" fill="#000"/>
+  <rect y="13.33" width="60" height="13.33" fill="#dd0000"/>
+  <rect y="26.67" width="60" height="13.33" fill="#ffce00"/>
+</symbol>
+
+<symbol id="f-fr" viewBox="0 0 60 40">
+  <rect width="20" height="40" fill="#002654"/>
+  <rect x="20" width="20" height="40" fill="#fff"/>
+  <rect x="40" width="20" height="40" fill="#ed2939"/>
+</symbol>
+
+<symbol id="f-es" viewBox="0 0 60 40">
+  <rect width="60" height="10" fill="#aa151b"/>
+  <rect y="10" width="60" height="20" fill="#f1bf00"/>
+  <rect y="30" width="60" height="10" fill="#aa151b"/>
+</symbol>
+
 </defs>
 </svg>

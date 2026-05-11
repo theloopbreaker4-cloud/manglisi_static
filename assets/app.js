@@ -4,7 +4,7 @@
 
   const STORAGE_KEY = 'manglisi-lang';
   const THEME_KEY = 'manglisi-theme';
-  const SUPPORTED = ['ru', 'en', 'ka', 'uk', 'be', 'az', 'hy'];
+  const SUPPORTED = ['ru', 'en', 'ka', 'uk', 'be', 'az', 'hy', 'de', 'fr', 'es'];
   const DEFAULT_LANG = 'en';
 
   // ─── Theme (light/dark) ─────────────────────────────────────────
