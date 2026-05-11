@@ -8,21 +8,30 @@
   const DEFAULT_LANG = 'en';
 
   // ─── Theme (light/dark) ─────────────────────────────────────────
+  // Priority: 1) OS prefers-color-scheme, 2) localStorage (only if user toggled)
   function detectTheme() {
-    const stored = localStorage.getItem(THEME_KEY);
-    if (stored === 'light' || stored === 'dark') return stored;
+    // 1. OS preference is primary
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // But if user manually overrode it, respect their choice
+      const stored = localStorage.getItem(THEME_KEY);
+      if (stored === 'light') return 'light';
       return 'dark';
     }
+    // OS is light
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === 'dark') return 'dark';
     return 'light';
   }
 
-  function applyTheme(theme) {
+  function applyTheme(theme, userInitiated) {
     document.documentElement.setAttribute('data-theme', theme);
     // Update theme-color meta for browser chrome (mobile)
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute('content', theme === 'dark' ? '#0e1a0c' : '#2d4a2a');
-    localStorage.setItem(THEME_KEY, theme);
+    // Only persist if user clicked the toggle (override OS)
+    if (userInitiated) {
+      localStorage.setItem(THEME_KEY, theme);
+    }
   }
 
   function bindThemeToggle() {
@@ -30,15 +39,17 @@
     if (!btn) return;
     btn.addEventListener('click', () => {
       const cur = document.documentElement.getAttribute('data-theme') || 'light';
-      applyTheme(cur === 'dark' ? 'light' : 'dark');
+      applyTheme(cur === 'dark' ? 'light' : 'dark', true);
     });
-    // Respond to OS theme changes if user has not picked explicitly
+    // React to OS theme changes in real-time
     if (window.matchMedia) {
       const mq = window.matchMedia('(prefers-color-scheme: dark)');
       const onChange = (e) => {
-        if (!localStorage.getItem(THEME_KEY)) {
-          applyTheme(e.matches ? 'dark' : 'light');
-        }
+        // If user has manual override stored, keep it
+        const stored = localStorage.getItem(THEME_KEY);
+        if (stored === 'light' || stored === 'dark') return;
+        // Otherwise follow OS
+        applyTheme(e.matches ? 'dark' : 'light', false);
       };
       if (mq.addEventListener) mq.addEventListener('change', onChange);
       else if (mq.addListener) mq.addListener(onChange);
@@ -46,7 +57,7 @@
   }
 
   // Apply theme ASAP (before DOMContentLoaded) to avoid flash
-  applyTheme(detectTheme());
+  applyTheme(detectTheme(), false);
 
   function detectLang() {
     // 1. Explicit URL override (?lang=xx) wins
