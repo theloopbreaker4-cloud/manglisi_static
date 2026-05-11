@@ -1143,3 +1143,15 @@ body,
 [data-theme="dark"] .rating-line .stars {
   filter: drop-shadow(0 0 6px rgba(255, 207, 70, 0.4));
 }
+
+/* Footer badge — center the ToolPix badge */
+.footer-badge {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-badge a,
+.footer-badge [id^="toolpix-badge-"] {
+  display: inline-block;
+}
