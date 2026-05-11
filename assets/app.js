@@ -110,7 +110,29 @@
       b.classList.toggle('active', b.dataset.lang === lang);
     });
     updateLangTrigger(lang);
+    updateBlogLinks(lang);
     localStorage.setItem(STORAGE_KEY, lang);
+  }
+
+  // Blog folders we have translated articles for (DE/FR/ES fallback to EN)
+  const BLOG_LANGS = ['en', 'ka', 'uk', 'be', 'az', 'hy'];
+  function blogPrefix(lang) {
+    if (lang === 'ru') return 'blog/';          // RU is canonical (root)
+    if (BLOG_LANGS.includes(lang)) return 'blog/' + lang + '/';
+    return 'blog/en/';                            // de/fr/es fallback to English
+  }
+  function updateBlogLinks(lang) {
+    const prefix = blogPrefix(lang);
+    document.querySelectorAll('a[href^="blog/"]').forEach((a) => {
+      const original = a.getAttribute('data-blog-href') || a.getAttribute('href');
+      // Store original RU path once
+      if (!a.hasAttribute('data-blog-href')) {
+        a.setAttribute('data-blog-href', original);
+      }
+      // Strip 'blog/' (and possible lang dir) from original, then re-prefix
+      const slug = original.replace(/^blog\/(?:[a-z]{2}\/)?/, '');
+      a.setAttribute('href', prefix + slug);
+    });
   }
 
   function updateLangTrigger(lang) {
