@@ -1139,8 +1139,14 @@ body,
   background: linear-gradient(180deg, #1a2818 0%, #0e1a0c 100%);
 }
 
-[data-theme="dark"] a { color: var(--c-pine-l); }
-[data-theme="dark"] a:hover { color: var(--c-warm-l); }
+[data-theme="dark"] a:not(.btn):not(.lang-btn):not(.brand) { color: var(--c-pine-l); }
+[data-theme="dark"] a:not(.btn):not(.lang-btn):not(.brand):hover { color: var(--c-warm-l); }
+
+/* Ensure primary button always has white text on warm bg */
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] .btn-primary:hover,
+.btn-primary,
+.btn-primary:hover { color: #fff; }
 
 [data-theme="dark"] .muted,
 [data-theme="dark"] .rating-line { color: var(--c-ink-soft); }
