@@ -1312,6 +1312,88 @@ body,
   filter: drop-shadow(0 0 6px rgba(255, 207, 70, 0.4));
 }
 
+/* ─────────────────────────────────────────────────────────────────
+   Dark theme — hero, tagline, rating, section backgrounds
+   ───────────────────────────────────────────────────────────────── */
+
+/* Hero tagline pill — was rgba(255,255,255,0.7) bg + dark text */
+[data-theme="dark"] .tagline {
+  background: var(--c-card);
+  color: var(--c-pine-l);
+  border-color: var(--c-line);
+}
+
+/* Hero subtitle */
+[data-theme="dark"] .subtitle {
+  color: var(--c-ink-soft);
+}
+
+/* Rating strip — was #fff bg */
+[data-theme="dark"] .rating-strip {
+  background: var(--c-card);
+  border-color: var(--c-line);
+  color: var(--c-ink);
+}
+[data-theme="dark"] .rating-strip strong,
+[data-theme="dark"] .rating-strip a {
+  color: var(--c-ink);
+}
+[data-theme="dark"] .rating-strip a:hover {
+  color: var(--c-warm-l);
+}
+
+/* Hero badges (63 km from Tbilisi etc.) — were rgba white bg */
+[data-theme="dark"] .hero-badges > * {
+  background: var(--c-card);
+  color: var(--c-ink);
+  border-color: var(--c-line);
+}
+
+/* Section background overrides — light cream → dark surfaces */
+[data-theme="dark"] .section-cream {
+  background: linear-gradient(180deg, var(--c-bg) 0%, var(--c-bg-soft) 100%);
+  border-color: var(--c-line);
+}
+[data-theme="dark"] .section-light {
+  background: var(--c-bg);
+  border-color: var(--c-line);
+}
+[data-theme="dark"] .section-forest {
+  background: linear-gradient(180deg, #0d1810 0%, #050b06 100%);
+}
+
+/* Body::before gradient overlay — was hardcoded cream */
+[data-theme="dark"] body::before {
+  background: linear-gradient(180deg,
+    rgba(14, 26, 12, 0.78) 0%,
+    rgba(14, 26, 12, 0.92) 60%,
+    var(--c-bg) 100%);
+}
+
+/* All section h2 in dark mode — ensure visible */
+[data-theme="dark"] .section h1,
+[data-theme="dark"] .section h2,
+[data-theme="dark"] .section h3,
+[data-theme="dark"] .section p:not(.section-lead) {
+  color: var(--c-ink);
+}
+
+/* Section lead text */
+[data-theme="dark"] .section-lead {
+  color: var(--c-ink-soft);
+}
+
+/* Section-forest (Perfect for / Blog preview) stays with light text */
+[data-theme="dark"] .section-forest h1,
+[data-theme="dark"] .section-forest h2,
+[data-theme="dark"] .section-forest h3 {
+  color: #fff;
+}
+[data-theme="dark"] .section-forest .section-lead,
+[data-theme="dark"] .section-forest p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Footer badge — center the ToolPix badge */
 .footer-badge {
   margin-top: 18px;
