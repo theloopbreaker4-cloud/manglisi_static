@@ -3,8 +3,50 @@
   'use strict';
 
   const STORAGE_KEY = 'manglisi-lang';
+  const THEME_KEY = 'manglisi-theme';
   const SUPPORTED = ['ru', 'en', 'ka', 'uk', 'be', 'az', 'hy'];
   const DEFAULT_LANG = 'en';
+
+  // ─── Theme (light/dark) ─────────────────────────────────────────
+  function detectTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === 'light' || stored === 'dark') return stored;
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+    return 'light';
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    // Update theme-color meta for browser chrome (mobile)
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', theme === 'dark' ? '#0e1a0c' : '#2d4a2a');
+    localStorage.setItem(THEME_KEY, theme);
+  }
+
+  function bindThemeToggle() {
+    const btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      applyTheme(cur === 'dark' ? 'light' : 'dark');
+    });
+    // Respond to OS theme changes if user has not picked explicitly
+    if (window.matchMedia) {
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+      const onChange = (e) => {
+        if (!localStorage.getItem(THEME_KEY)) {
+          applyTheme(e.matches ? 'dark' : 'light');
+        }
+      };
+      if (mq.addEventListener) mq.addEventListener('change', onChange);
+      else if (mq.addListener) mq.addListener(onChange);
+    }
+  }
+
+  // Apply theme ASAP (before DOMContentLoaded) to avoid flash
+  applyTheme(detectTheme());
 
   function detectLang() {
     // 1. Explicit URL override (?lang=xx) wins
@@ -190,5 +232,6 @@
     bindMenuToggle();
     bindLightbox();
     bindReveal();
+    bindThemeToggle();
   });
 })();
