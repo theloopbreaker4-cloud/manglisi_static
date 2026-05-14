@@ -1319,6 +1319,77 @@ body,
 }
 
 /* ─────────────────────────────────────────────────────────────────
+   Card alignment fix — equal height + centered icons
+   ───────────────────────────────────────────────────────────────── */
+
+/* Feature cards: equal height + vertical icon center */
+.feature {
+  align-items: center !important;
+  min-height: 110px;
+}
+.feature-icon {
+  width: 48px !important;
+  height: 48px !important;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Perfect-for + season cards — same height */
+.perfect-card,
+.season-card,
+.howto-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: 200px;
+}
+.perfect-icon,
+.season-icon {
+  width: 56px !important;
+  height: 56px !important;
+  margin: 0 auto 14px !important;
+  flex-shrink: 0;
+}
+
+/* Grid items — stretch to full height of row */
+.features,
+.perfect,
+.seasons,
+.howto,
+.blog-preview {
+  align-items: stretch;
+}
+.features > *,
+.perfect > *,
+.seasons > *,
+.howto > *,
+.blog-preview > * {
+  height: 100%;
+}
+
+/* Blog cards on home — equal height */
+.blog-card {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 180px;
+}
+.blog-card h3 {
+  flex-shrink: 0;
+}
+.blog-card p {
+  flex: 1;
+}
+
+/* ─────────────────────────────────────────────────────────────────
    Dark theme — hero, tagline, rating, section backgrounds
    ───────────────────────────────────────────────────────────────── */
 
