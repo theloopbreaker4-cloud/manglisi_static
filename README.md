@@ -2,9 +2,9 @@
 
 Static website for **Cottage Tati** — a cosy mountain cottage for rent in Manglisi (Trialeti, Georgia), one hour drive from Tbilisi.
 
-🌲 5★ on [Google Maps](https://www.google.com/maps/place/Cottage+Tati/@41.6970341,44.3724248,17z)
-📞 +995 597 05 11 25 · WhatsApp · Viber
-📍 Manglisi, Tetritskaro, Kvemo Kartli, Georgia (41.6970341, 44.3724248)
+🌲 5★ on Google Maps
+📞 contact owner · WhatsApp · Viber
+📍 Manglisi, Tetritskaro, Kvemo Kartli, Georgia
 
 ## Stack
 
