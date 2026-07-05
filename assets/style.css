@@ -1477,8 +1477,16 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .footer-badge a,
 .footer-badge [id^="toolpix-badge-"] {
   display: inline-block;
+}
+.footer-badge-sep {
+  width: 1px;
+  height: 24px;
+  background: var(--c-dark-line);
+  opacity: 0.5;
 }
